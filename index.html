@@ -7,49 +7,60 @@
 </head>
 <body>
     <header><h1>Welcome To My Personal Blog</h1>
-        <div>
-            <nav>
-                <a href="Blog_Posts.html">Blog Posts</a>
-                <a href="About_Me.html">About Me</a>
-                <a href="Contact.html">Contact</a>
-            </nav>
-        </div>
+        
+        <nav>
+            <a href="Blog_Posts.html">Blog Posts</a>
+            <a href="About_Me.html">About Me</a>
+            <a href="Contact.html">Contact</a>
+        </nav>
+        
     </header>
      
     <main>
         <section>
             <h2>Blog Posts</h2>
-            <h3>My First Blog Post</h3>
-            <article><p>This is the content of my first blog. It's very interesting!</p></article>
+            
+            <article>
+                <h3>My First Blog Post</h3>
+                <p>This is the content of my first blog. It's very interesting!</p>
+            </article>
         
-            <h3>Another Interesting Post</h3>
-            <article><p>Here is some more interesting content for my blog.</p></article>
+            <article>
+                <h3>Another Interesting Post</h3>
+                <p>Here is some more interesting content for my blog.</p>
+            </article>
          </section>
 
         <section>
             <h2>About Me</h2>
             <img src="missing_link.tv" alt="Profile Picture">
             <p>Hello! I'm an aspiring web developer. I love creating beautiful and functional websites.</p>
-            <h3>Hobbies</h3>
-        </section>
-        <ul>
-            <li>Reading</li>
-            <li>Wood Working</li>
-            <li>Coding</li>
-        </ul>
 
-        <h1>Contact Me</h1>
-        Name: <input type="text" name="name"> <br>
-        Email: <input type="email" name="email"/> <br>
-        Message: <textarea name="message"></textarea> <br>
-        <button type="">Submit</button>
+            <h3>Hobbies</h3>
+        
+            <ul>
+                <li>Reading</li>
+                <li>Wood Working</li>
+                <li>Coding</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Contact Me</h2>
+            
+            <form action="">
+                <label for="name">Name:</label><input type="text" name="name"><br>
+                <label for="email">Email:</label><input type="email" name="email"/><br>
+                <label for="message">Message:</label><textarea name="message"></textarea><br>
+                <button type="">Submit</button>
+            </form>
+        </section>
 
     </main>
  
     <footer>
-        <pre>&copy; 2024 My Personal Blog. All rights reserved.
-            Contact us at <a href="example@gmail.com">info@myblog.com</a></pre>
-        
+        <p>&copy; 2024 My Personal Blog. All rights reserved.</p>
+        <p>Contact us at <a href="example@gmail.com">info@myblog.com</a></p>
     </footer>
     
 </body>
